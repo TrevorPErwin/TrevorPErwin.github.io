@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Trevor Erwin"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Astronomer and Planetary Scientist"
   location         : "West Lafayette, Indiana"
   employer         : "Purdue University"
   uri              : # URL
@@ -32,11 +32,9 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0003-3244-4976"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
