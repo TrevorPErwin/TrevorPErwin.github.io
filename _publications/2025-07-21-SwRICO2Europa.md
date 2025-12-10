@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2025-07-21-SwRICO2Europa
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-07-21
-venue: 'Planetary Science Hournal'
+venue: 'Planetary Science Journal'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'http://trevorperwin.github.io/files/Mamo_2025_Planet._Sci._J._6_170.pdf'
 citation: 'Mamo BD, Raut U, Teolis BD, <b>Erwin TP</b>, Cartwright RJ, Protopapa S, Retherford KD, Nordheim TA. (2025). &quot;Laboratory Investigation of CO<sub>2</sub>-driven Enhancement of Radiolytic H<sub>2</sub>O<sub>2</sub> on Europa and Other Icy Moons.&quot; <i>Planetary Science Journal</i>. 6 (170).'
