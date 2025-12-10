@@ -15,7 +15,7 @@ redirect_from:
 
 - **University of Texas at Austin** — Honors B.S. in Astronomy and Physics  
   *September 2020 – December 2023*  
-  GPA: 3.75
+
 
 ---
 
