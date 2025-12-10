@@ -3,7 +3,6 @@ title: "Laboratory Investigation of CO<sub>2</sub>-driven Enhancement of Radioly
 collection: publications
 category: manuscripts
 permalink: /publication/2025-07-21-SwRICO2Europa
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-07-21
 venue: 'Planetary Science Journal'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
