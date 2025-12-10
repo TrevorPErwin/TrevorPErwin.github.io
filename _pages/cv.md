@@ -7,58 +7,135 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+# Trevor Erwin
 
-Education
-======
-* Ph.D in Planetary Sciences, Purdue University, 2028 (expected)
-* B.S. in Astronomy, University of Texas at Austin, 2024
-* B.S. in Honors Physics, University of Texas at Austin, 2024
+## Education
+- **Purdue University** — Ph.D. in Planetary and Atmospheric Sciences  
+  *August 2024 – Present*
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- **University of Texas at Austin** — Honors B.S. in Astronomy and Physics  
+  *September 2020 – December 2023*  
+  GPA: 3.75
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+---
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Awards
+- **NSF Graduate Research Fellowship Program Honorable Mention** (2025)  
+  Proposal: Salt Clouds in Y-Dwarf Atmospheres
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+- **Purdue Presidential Excellence Ph.D. Award** (2024)  
+  Recognition for research and alignment with Purdue’s goals
+
+- **Karl G. Henize Endowed Scholarship** (2023)  
+  Awarded for academic performance, research, and service at UT Austin
+
+- **Melvin J. Rieger Scholarship Fund in Physics** (2023)  
+  Based on research into hollow spheres in exoplanet atmospheres
+
+- **Astronomy Dept. Research Funding & Undergraduate Research Grant** (2023)  
+  Two grants awarded for exoplanet atmosphere research
+
+- **Olin E. Teague National Space Research Scholarship** (2020)  
+  Awarded for Martian habitat design research using polyethylene models
+
+---
+
+## Research Experience
+- **Graduate Researcher, Purdue University** (Aug 2024 – Present)  
+  *Advisor: Dr. Alexandria Johnson*  
+  - Studying deliquescence/efflorescence of KCl salts in Y-dwarf cloud models  
+  - Incorporating hygroscopicity into CARMA
+
+- **Research Assistant, Southwest Research Institute** (May 2024 – Aug 2024)  
+  *Advisor: Dr. Ujjwal Raut*  
+  - CO₂ enhancement of H₂O₂ in Europa’s Chaos Terrains  
+  - Ran deposition/irradiation experiments in ultra-high vacuum chamber  
+  - Automated Python code for band area analysis (lab + JWST data)
+
+- **Research Assistant, UT Austin** (Jun 2022 – Mar 2024)  
+  *Advisors: Dr. Brianna Lacy & Dr. Caroline Morley*  
+  - Modeled Mie scattering in exoplanet hazes  
+  - Developed hollow sphere distribution module for transit spectra
+
+- **Research Assistant, UT Austin** (Jan 2021 – Dec 2021)  
+  *Advisor: Dr. Michael Montgomery*  
+  - Created color-magnitude diagrams for Messier clusters using Gaia EDR3  
+  - Compared with isochrones to determine cluster ages
+
+- **Research Assistant, Southwest Research Institute** (May 2020 – Aug 2020)  
+  *Advisor: Dr. Ben Teolis*  
+  - Studied methane deposition cycle on Charon  
+  - Conducted vacuum chamber/laser experiments  
+  - Contributed to publication: *Raut et al., Science Advances, 2022*
+
+---
+
+## Presentations
+### Poster Presentations
+- *The Chemistry of Clouds: Salt’s Effect on Water Vapor in Y-Dwarf Atmospheres*  
+  - AGU Meeting (2025)  
+  - Great Lakes Exoplanet Area Meeting (2025)
+
+- *The Length of Martian Crater Rays and Their Relation to Lunar Cold Spots*  
+  - AGU Meeting (2025)
+
+- *The Distribution of Hollow Spheres in Exoplanet Transit Spectra*  
+  - AAS 243rd Meeting  
+  - Frank N. Bash Symposium (2023)  
+  - Texas Area Planetary Science Meeting (2023)
+
+- *The Distribution of Hollow Spheres in Exoplanet Atmospheres*  
+  - UT Undergraduate Research Forum (2023)  
+  - UT Physics & Astronomy Undergraduate Research Forum (2023)
+
+### Oral Presentations
+- *Finding Life On Other Worlds* — Schrodinger’s Pint, Darwin’s Piano Bar (Dec 2022)  
+- *Exoplanet Habitability: Finding Life On Other Worlds* — Astronomy Students Association (Oct 2022)
+
+---
+
+## Employment
+- **Park Ranger & Outreach Specialist, McKinney Roughs Park** (Spring 2023 – Dec 2023)  
+  - Led astronomy outreach events and nighttime programs  
+  - Operated night vision equipment, guided trail talks
+
+- **Physics Office Lab Demonstrator, UT Austin** (Sep 2021 – Dec 2023)  
+  - Set up physics demonstrations for intro courses  
+  - Maintained equipment and trained new staff
+
+- **Undergraduate Teaching Assistant, Intro Astronomy, UT Austin** (Sep 2022 – Dec 2023)  
+  - Assisted STEM majors in astronomy coursework  
+  - Graded assignments and hosted weekly office hours
+
+---
+
+## Observing Time
+- **McDonald Observatory, Otto Struve 2.1m Telescope** — 3 Nights  
+  - Observed faint galaxies and nebulae  
+  - Instructed peers on safe telescope operations
+
+---
+
+## Professional Skills
+- **Programming:** Python (Astropy, NumPy, pandas), Fortran, LaTeX  
+- **Systems:** MacOS, Linux  
+- **Experience:** Data parsing, statistical analysis, scientific writing
+
+---
+
+## Certifications & Training
+- Machine Shop Certification (Lathes, mills)  
+- Laser Safety Training  
+- Cryogenic Safety Training  
+- 3D Printer Certification  
+
+---
+
+## Campus Involvement
+- **Astronomy Students Association — Outreach Officer** (Fall 2021 – 2024)  
+  - Organized outreach events, camping trips, and McDonald Observatory visits  
+  - Advocated for undergraduate needs to departmental leadership
+
+- **Astronomy Mentorship Program (AMP) — Mentor** (Fall 2022 – 2024)  
+  - Mentored junior astronomy students on research and career planning  
+  - Coordinated with graduate mentorship program
