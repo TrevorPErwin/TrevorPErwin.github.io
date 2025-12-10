@@ -69,17 +69,24 @@ redirect_from:
   - Contributed to publication: *Raut et al., Science Advances, 2022*
 
 ---
+## Publications
+<b>Erwin, T.</b>, Johnson, BC., Minton, D., Johnson, AV. (2025) <i>"The Length of Martian Crater Rays and Their Relation to Lunar Cold Spots"</i>, in revision for JGR: Planets*
+
+Mamo BD, Raut U, Teolis BD, <b>Erwin T</b>, Cartwright RJ, Protopapa S, Retherford KD, Nordheim TA. (2025). <i>"Laboratory Investigation of CO2-driven Enhancement of Radiolytic H2O2 on Europa and Other Icy Moons.</i>" Planetary Science Journal. 6 (170).
+
+
+
 
 ## Presentations
 ### Poster Presentations
-- *The Chemistry of Clouds: Salt’s Effect on Water Vapor in Y-Dwarf Atmospheres*  
+- *[The Chemistry of Clouds: Salt’s Effect on Water Vapor in Y-Dwarf Atmospheres](https://trevorperwin.github.io/talks/2025-12-17-AGU_YDwarf)*  
   - AGU Meeting (2025)  
   - Great Lakes Exoplanet Area Meeting (2025)
 
-- *The Length of Martian Crater Rays and Their Relation to Lunar Cold Spots*  
+- *[The Length of Martian Crater Rays and Their Relation to Lunar Cold Spots](https://trevorperwin.github.io/talks/2025-12-17-AGU_CraterRay)*  
   - AGU Meeting (2025)
 
-- *The Distribution of Hollow Spheres in Exoplanet Transit Spectra*  
+- *[The Distribution of Hollow Spheres in Exoplanet Transit Spectra](https://trevorperwin.github.io/talks/2024-21-07-AAS_243)*  
   - AAS 243rd Meeting  
   - Frank N. Bash Symposium (2023)  
   - Texas Area Planetary Science Meeting (2023)
