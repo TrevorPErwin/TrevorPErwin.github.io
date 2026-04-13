@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Trevor Erwin"
-  pronouns         : # example: "she/her"  
+  pronouns         : "they/them"  
   bio              : "Astronomer and Planetary Scientist"
   location         : "West Lafayette, Indiana"
   employer         : "Purdue University"
@@ -198,6 +198,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  photography:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -255,6 +258,14 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _photography
+  - scope:
+      path: ""
+      type: photography
+    values:
+      layout: single
+      author_profile: true
+      share: false
 
 
 # Sass/SCSS
