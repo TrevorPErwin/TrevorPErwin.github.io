@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Research | Trevor Erwin</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#050816;
+    color:white;
+    overflow-x:hidden;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+canvas{
+    position:fixed;
+    inset:0;
+    z-index:-2;
+}
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background:
+    radial-gradient(circle at 20% 20%, rgba(70,120,255,.15), transparent 25%),
+    radial-gradient(circle at 80% 40%, rgba(0,200,255,.12), transparent 25%),
+    radial-gradient(circle at 50% 80%, rgba(120,0,255,.12), transparent 30%);
+    filter:blur(60px);
+    z-index:-1;
+}
+
+/* NAVBAR */
+
+nav{
+    position:fixed;
+    width:100%;
+    top:0;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    backdrop-filter:blur(15px);
+    background:rgba(5,8,22,.6);
+
+    z-index:999;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+nav a:hover{
+    color:#74a8ff;
+}
+
+/* HEADER */
+
+.header{
+    text-align:center;
+    padding-top:150px;
+    padding-bottom:80px;
+}
+
+.header h1{
+    font-size:4rem;
+    margin-bottom:15px;
+}
+
+.header p{
+    color:#b8c4df;
+}
+
+/* RESEARCH BLOCKS */
+
+.research-section{
+    max-width:1300px;
+    margin:auto;
+    padding:50px 8%;
+}
+
+.research-item{
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+
+    align-items:center;
+
+    margin-bottom:120px;
+
+    background:rgba(255,255,255,.04);
+
+    backdrop-filter:blur(12px);
+
+    padding:40px;
+
+    border-radius:25px;
+
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.research-item.reverse .research-image{
+    order:2;
+}
+
+.research-item.reverse .research-content{
+    order:1;
+}
+
+.research-image img{
+    width:100%;
+    border-radius:20px;
+}
+
+.research-content h2{
+    margin-bottom:20px;
+    font-size:2rem;
+}
+
+.research-content p{
+    color:#c5d0ea;
+    line-height:1.7;
+}
+
+.paper-link{
+
+    display:inline-block;
+
+    margin-top:25px;
+
+    padding:12px 25px;
+
+    border-radius:999px;
+
+    background:#2e77ff;
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.3s;
+}
+
+.paper-link:hover{
+    transform:translateY(-3px);
+}
+
+footer{
+    text-align:center;
+    padding:50px;
+    color:#9ca7bf;
+}
+
+@media(max-width: 900px){
+
+    .research-item{
+        grid-template-columns:1fr;
+    }
+
+    .research-item.reverse .research-image{
+        order:1;
+    }
+
+    .research-item.reverse .research-content{
+        order:2;
+    }
+
+    .header h1{
+        font-size:2.75rem;
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<canvas id="stars"></canvas>
+
+<nav>
+
+<div>
+    Trevor Erwin
+</div>
+
+<div>
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+</nav>
+
+<section class="header">
+
+<h1>Research</h1>
+
+<p>
+Current research interests, projects, and publications.
+</p>
+
+</section>
+
+<div class="research-section">
+
+    <!-- PROJECT 1 -->
+
+    <div class="research-item">
+
+        <div class="research-image">
+            <img src="images/ecmi.png" alt="ECMI Research">
+        </div>
+
+        <div class="research-content">
+
+            <h2>Electron Cyclotron Maser Instability</h2>
+
+            <p>
+                Investigation of coherent radio emission generated through
+                the Electron Cyclotron Maser Instability (ECMI).
+                This work focuses on planetary magnetospheres,
+                emission geometry, polarization properties,
+                and observational signatures relevant to exoplanets
+                and solar-system bodies.
+            </p>
+
+            <a class="paper-link"
+               href="papers/ecmi_paper.pdf"
+               target="_blank">
+
+                Read Paper
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- PROJECT 2 -->
+
+    <div class="research-item reverse">
+
+        <div class="research-image">
+            <img src="images/exoplanet.png" alt="Exoplanets">
+        </div>
+
+        <div class="research-content">
+
+            <h2>Exoplanet Radio Emissions</h2>
+
+            <p>
+                Studying radio emission mechanisms from exoplanetary
+                systems and evaluating detectability with current
+                and future low-frequency radio observatories.
+            </p>
+
+            <a class="paper-link"
+               href="#">
+
+               Publication Coming Soon
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- PROJECT 3 -->
+
+    <div class="research-item">
+
+        <div class="research-image">
+            <img src="images/simulation.png" alt="Simulation">
+        </div>
+
+        <div class="research-content">
+
+            <h2>Computational Modeling</h2>
+
+            <p>
+                Development of numerical models and simulations
+                used to explore plasma environments,
+                planetary interactions, and broader
+                astrophysical systems.
+            </p>
+
+            <a class="paper-link"
+               href="#">
+
+               View Project
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+
+© 2026 Trevor Erwin
+
+</footer>
+
+<script>
+
+/* STARFIELD */
+
+const canvas = document.getElementById("stars");
+const ctx = canvas.getContext("2d");
+
+function resize(){
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+}
+
+resize();
+window.addEventListener("resize", resize);
+
+const stars = [];
+
+for(let i=0;i<250;i++){
+    stars.push({
+        x:Math.random()*canvas.width,
+        y:Math.random()*canvas.height,
+        r:Math.random()*2,
+        s:Math.random()*0.5
+    });
+}
+
+function animate(){
+
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+
+    ctx.fillStyle="white";
+
+    stars.forEach(star=>{
+
+        ctx.beginPath();
+        ctx.arc(star.x,star.y,star.r,0,Math.PI*2);
+        ctx.fill();
+
+        star.y += star.s;
+
+        if(star.y > canvas.height){
+            star.y = 0;
+            star.x = Math.random()*canvas.width;
+        }
+
+    });
+
+    requestAnimationFrame(animate);
+}
+
+animate();
+
+</script>
+
+</body>
+</html>
